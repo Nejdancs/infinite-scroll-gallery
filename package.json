@@ -1,0 +1,33 @@
+{
+  "name": "repo",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://nejdancs.github.io/repo",
+  "scripts": {
+    "start": "parcel src/*.html --open",
+    "build": "parcel build src/*.html --public-url /repo/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nejdancs/repo.git"
+  },
+  "keywords": [],
+  "author": "Sergey Korobka <nejdancs@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nejdancs/repo/issues"
+  },
+  "dependencies": {
+    "infinite-scroll": "^4.0.1",
+    "jquery-bridget": "^3.0.1",
+    "mdb-ui-kit": "^4.1.0",
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
